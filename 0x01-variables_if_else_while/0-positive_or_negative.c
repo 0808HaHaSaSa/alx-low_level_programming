@@ -1,20 +1,27 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+/*
+ * main - assigns a random number to int everytime
+ * Description:tell is a nuber is positive, zero or nrgative 
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 int n;
-printf("give a number\n");
-scanf("%i",&n);
+srand(time(0));
+n = rand() - RAND_MAX / 2
 if(n==0){
-	printf("%i is zero",n);
+	printf("%d is zero",n);
         }
 else {
 if(n>0))
 {
-printf("%i est positive",n);
+printf("%d est positive",n);
 } 
 else
 {
-printf("%i est negative",n);
+printf("%d est negative",n);
 } 
      }
 return 0; 
