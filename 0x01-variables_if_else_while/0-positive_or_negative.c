@@ -1,25 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
@@ -39,50 +17,5 @@ int main(void)
 	 else
 	  printf("%d is zero",n);
 	return (0);
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        }
-
-
-
-
- 
-
-
-
- 
-
-
-
 
