@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.*/
+/*
+*main - prints all the numers of base 16 in lowercase
+*return: Always 0 (success)
+*/
 int main(void)
 {
 /* Notice that final new line character is implicit */
