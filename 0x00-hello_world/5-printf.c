@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
-*main - prints all the numers of base 16 in lowercase
-
-*return: Always 0 (success)
-*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 /* Notice that final new line character is implicit */
