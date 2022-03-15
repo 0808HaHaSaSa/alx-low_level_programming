@@ -6,7 +6,6 @@ char A;
 for (A = 'a'; A <= 'z'; A++)
 printf ("%c", A);
 printf("\n");
-return (0);
 }
 /**
  * main - check the code
