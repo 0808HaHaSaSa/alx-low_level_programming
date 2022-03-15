@@ -1,13 +1,16 @@
 #include <stdio.h>
-/* main - Entry point
+/**
+ * main - Entry point
  *
  * Return: Always 0 (Success)
- */
+*/
+/* betty style doc for function main goes there */
 
-int main()
+
+int main(void)
 {
 char A;
-for(A='a'; A<='Z'; A++)
+for (A = 'a'; A <= 'z'; A++)
 putchar(A);
 putchar('\n');
 return (0);
