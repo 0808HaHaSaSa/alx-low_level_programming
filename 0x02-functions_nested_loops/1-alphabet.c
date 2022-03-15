@@ -1,11 +1,19 @@
 #include "main.h"
-void print_alphabet(void);
-
+#include <stdio.h>
+void print_alphabet(void)
+{
+char A;
+for (A = 'a'; A <= 'z'; A++)
+printf ("%c", A);
+printf("\n");
+return (0);
+}
 /**
  * main - check the code
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
 print_alphabet();
