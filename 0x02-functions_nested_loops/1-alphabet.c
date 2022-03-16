@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- *
- *print the alphabet
+* print_alphabet -entry point
+*Description: it prints alphabets in lowercase
+*followed by a new line and prototype void print_alphabet(void)
+* Return: Always 0.
 */
 
 void print_alphabet(void)
