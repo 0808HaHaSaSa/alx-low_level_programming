@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* print_alphabet -entry point
+* void print_alphabet_x10(void) -entry point
 *Description: it prints alphabets in lowercase
 *followed by a new line and prototype void print_alphabet_x10(void)
 * Return: Always 0.
