@@ -5,11 +5,13 @@
  *
  * Return: Always 0.
  */
+/*print the alphabet*/
+
 void print_alphabet(void)
 {
 char A;
 for (A = 'a'; A <= 'z'; A++)
-printf ("%c", A);
+printf("%c", A);
 printf("\n");
 }
 
