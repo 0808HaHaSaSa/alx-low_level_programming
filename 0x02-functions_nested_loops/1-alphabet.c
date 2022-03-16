@@ -10,7 +10,7 @@
 */
 
 void print_alphabet(void)
-{
+{/* print the alphabet */
 char A;
 for (A = 'a'; A <= 'z'; A++)
 printf("%c", A);
