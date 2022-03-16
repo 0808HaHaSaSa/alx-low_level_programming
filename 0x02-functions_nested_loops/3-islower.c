@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - check the code.
+ * test_islower - Teste la fonction _islower
  *
- * Return: Always 0.
+ * @n : nombre à transmettre à la fonction _islower
  */
 int _islower(int c)
 {
