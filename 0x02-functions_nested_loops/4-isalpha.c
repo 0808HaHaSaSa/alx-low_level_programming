@@ -3,6 +3,7 @@
 /**
  * _isalpha - Teste la fonction _isalpha
  *
+ * return value 0  if c is not alphabet ifelse return 1
  * c : nombre à transmettre à la fonction _isalpha
  */
 int _isalpha(int c)
