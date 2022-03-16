@@ -4,9 +4,9 @@
  *
  * Return: Always 0.
  */
-int _putchar(void)
+void _putchar(int c)
 {
-putchar(char c);
+putchar(c);
 }
 int main(void)
 {
