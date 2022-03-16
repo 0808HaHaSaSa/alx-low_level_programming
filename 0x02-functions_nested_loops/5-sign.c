@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <math.h>
 int print_sign(int n)
 {
 if (n == 0)
