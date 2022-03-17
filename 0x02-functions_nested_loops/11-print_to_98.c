@@ -15,7 +15,7 @@ if (n < 98)
 {
 for (i = n; i < 98; i++)
 {
-printf("%d,\t", i);
+printf("%d, ", i);
 }
 printf("98\n");
 }
@@ -23,7 +23,7 @@ else
 {
 for (i = n; i > 98; i--)
 {
-printf("%d,\t", i);
+printf("%d, ", i);
 }
 printf("98\n");
 }
