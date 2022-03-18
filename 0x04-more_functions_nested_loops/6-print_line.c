@@ -13,5 +13,5 @@ for (j = 0; j < n; j++)
 {
 printf("_");
 }
-printf("$\n");
+printf("\n");
 }
