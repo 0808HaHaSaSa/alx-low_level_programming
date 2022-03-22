@@ -9,8 +9,15 @@
 void rev_string(char *s)
 {
 int n, i, j = 0;
+char tab[n];
 n = strlen (s);
 for (i = n - 1 ; i >= 0 ; i--)
-s[j] = s[i];
+{
+tab[j] = s[i];
 j++;
+}
+for (i = 0 ; i < n ; i++)
+{
+s[i] = tab[i];
+}
 }
