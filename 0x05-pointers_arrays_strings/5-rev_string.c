@@ -8,16 +8,13 @@
 */
 void rev_string(char *s)
 {
-int n, i, j = 0;
-char tab[n];
+int n, i;
+char a;
 n = strlen (s);
-for (i = n - 1 ; i >= 0 ; i--)
+for (i = 0 ; i <= n / 2 ; i++)
 {
-tab[j] = s[i];
-j++;
-}
-for (i = 0 ; i < n ; i++)
-{
-s[i] = tab[i];
+a = s[i];
+s[i] = s[n - 1 - i];
+s[n - 1 - i] = a;
 }
 }
