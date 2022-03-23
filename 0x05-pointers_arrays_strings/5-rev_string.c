@@ -17,4 +17,5 @@ a = s[i];
 s[i] = s[n - 1 - i];
 s[n - 1 - i] = a;
 }
+printf("\n");
 }
