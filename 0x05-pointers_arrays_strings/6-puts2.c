@@ -10,8 +10,9 @@ void puts2(char *str)
 {
 int n, i;
 n = strlen(str);
-for (i = 0 ; i <= n ; i++)
+for (i = 0 ; i < n ; i++)
 if (i % 2 == 0)
 putchar(str[i]);
+printf("\n");
 
 }
