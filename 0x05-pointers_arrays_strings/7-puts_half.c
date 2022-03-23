@@ -10,11 +10,11 @@ void puts_half(char *str)
 {
 int n, i;
 n = strlen(str);
-if (n + 1 % 2 == 0)
-for (i = n + 1 / 2 ; i < n ; i++)
+if (n % 2 == 0)
+for (i = n / 2 ; i < n ; i++)
 putchar(str[i]);
 else
-for (i = n / 2 ; i < n ; i++)
+for (i = n - 1 / 2 ; i < n ; i++)
 putchar(str[i]);
 printf("\n");
 
