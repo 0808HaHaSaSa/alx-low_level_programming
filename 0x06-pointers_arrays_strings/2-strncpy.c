@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
-**_strcat - copies a string.
+**_strncpy - copies a string.
 *@dest:it the argument
 *@src:it the argument
 * @n:it the argument
