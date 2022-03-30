@@ -12,6 +12,6 @@ int n, i;
 n = strlen(s);
 for (i = n - 1; i >= 0; i--)
 {
-putchar(s[i]);
+printf("%c", s[i]);
 }
 }
