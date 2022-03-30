@@ -18,3 +18,4 @@ printf("%c", a[i][j]);
 }
 printf("\n");
 }
+}
