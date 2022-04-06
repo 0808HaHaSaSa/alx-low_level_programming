@@ -13,6 +13,8 @@ char *create_array(unsigned int size, char c)
 char *tab = NULL;
 unsigned int i;
 tab = malloc(sizeof(char) * size);
+if (tab == NULL)
+exit(1);
 for (i = 0; i < size; i++)
 {
 tab[i] = c;
