@@ -15,8 +15,7 @@ unsigned int i;
 tab = malloc(sizeof(char) * size);
 if (tab == NULL)
 {
-printf("failed to allocate memory\n");
-return (1);
+exit(1);
 }
 for (i = 0; i < size; i++)
 {
