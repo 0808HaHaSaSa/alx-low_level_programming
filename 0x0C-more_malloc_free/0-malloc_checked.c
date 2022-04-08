@@ -11,7 +11,7 @@
 void *malloc_checked(unsigned int b)
 {
 int *tab = NULL;
-tab = malloc(b);
+tab = (char *) malloc(b);
 if (tab == NULL)
 exit(98);
 return (tab);
