@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * test_islower - Teste la fonction _islower
- *
- * @n : nombre à transmettre à la fonction _islower
+ **add - Teste la fonction _islower
+ *@b:argument
+ *@a: nombre à transmettre à la fonction _islower
+ *Return: a+b
  */
 int add(int a, int b)
 {
