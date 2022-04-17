@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * _isalpha - Teste la fonction _isalpha
+ ** _isalpha - Teste la fonction _isalpha
  *
- * return value 0  if c is not alphabet ifelse return 1
- * c : nombre à transmettre à la fonction _isalpha
+ *@c : nombre à transmettre à la fonction _isalpha
+ *Return: always 0 or 1
  */
 int _isalpha(int c)
 {
