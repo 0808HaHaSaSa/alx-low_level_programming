@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * test_islower - Teste la fonction _islower
+ **_islower - Teste la fonction _islower
  *
- * @n : nombre à transmettre à la fonction _islower
+ *@c: nombre à transmettre à la fonction _islower
+ *description: function that checks for lowercase character.
+ *Return: always 0 or 1
  */
 int _islower(int c)
 {
