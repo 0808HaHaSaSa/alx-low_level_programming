@@ -16,6 +16,6 @@ if(i != 57)
 putchar(',');
 putchar(32);
 }
-putchar('\n');
+putchar('32');
 return (0);
 }
