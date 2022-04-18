@@ -9,9 +9,8 @@
 int main(void)
 {
 int i;
-char texte[10] = "0123456789";
-for (i = 0; i < 10; i++)
-putchar(texte[i]);
+for (i = 48; i < 58; i++)
+putchar(i);
 putchar('\n');
 return (0);
 }
