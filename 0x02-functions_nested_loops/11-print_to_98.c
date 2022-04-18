@@ -4,9 +4,10 @@
 #include <stdlib.h>
 
 /**
- * test_islower - Teste la fonction _islower
+ **print_to_98 - prints all natural numbers from n to 98
  *
- * @n : nombre à transmettre à la fonction _islower
+ *@n : nombre à transmettre à la fonction
+ *Return: anything
  */
 void print_to_98(int n)
 {
