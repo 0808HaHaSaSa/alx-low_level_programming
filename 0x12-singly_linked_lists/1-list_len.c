@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdarg.h>
+#include <string.h>
+#include <stdlib.h>
+#include <limits.h>
+/**
+**list_len - produces output according to a format.
+*@h:it the argument
+*description: produces output according to a format.
+*Return:  always 0
+*/
+size_t list_len(const list_t *h)
+{
+int size = 0;
+while (h != NULL)
+{
+size++;
+h = h->next;
+}
+return (size);
+}
