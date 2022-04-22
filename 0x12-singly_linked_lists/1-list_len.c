@@ -2,7 +2,6 @@
 #include <stdarg.h>
 #include <string.h>
 #include <stdlib.h>
-#include <limits.h>
 /**
 **list_len - produces output according to a format.
 *@h:it the argument
@@ -11,7 +10,7 @@
 */
 size_t list_len(const list_t *h)
 {
-int size = 0;
+unsigned int size = 0;
 while (h != NULL)
 {
 size++;
