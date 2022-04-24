@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 int m;
 if (argc != 3)
