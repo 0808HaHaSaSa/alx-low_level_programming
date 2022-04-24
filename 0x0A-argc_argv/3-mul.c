@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-int main(int argc, char *argv[])
+int main(int argc, int *argv[])
 {
 int m;
 if (argc != 3)
@@ -18,7 +18,7 @@ return (1);
 }
 else
 {
-m=(int)((*argv[1])*(*argv[2]));
+m = (int)((*argv[1]) * (*argv[2]));
 printf("%d", m);
 printf("\n");
 return (0);
