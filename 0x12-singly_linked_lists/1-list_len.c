@@ -8,9 +8,9 @@
 *description: produces output according to a format.
 *Return:  always 0
 */
-size_t list_len(struct list_s *h)
+size_t list_len(const list_t *h)
 {
-unsigned int size = 0;
+size_t size = 0;
 if (h != NULL)
 while (h != NULL)
 {
