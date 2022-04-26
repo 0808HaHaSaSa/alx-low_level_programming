@@ -11,11 +11,17 @@
 size_t print_listint(struct listint_s *h)
 {
 size_t size = 0;
+if (h == NULL)
+{
+printf("linked list is empty");
+}
+struct listint_s *ptr = NULL;
+ptr = h ;
 while (h != NULL)
 {
 size++;
-printf("%d\n", h->n);
-h = h->next;
+printf("%d\n", ptr->n);
+ptr = ptr->next;
 }
 return (size);
 }
