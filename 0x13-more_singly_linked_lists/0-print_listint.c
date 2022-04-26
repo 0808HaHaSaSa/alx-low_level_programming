@@ -1,12 +1,7 @@
 #include <stdio.h>
-#include <stdarg.h>
+#include <lists.h>
 #include <string.h>
 #include <stdlib.h>
-typedef struct listint_s
-{
-int n;
-struct listint_s *next;
-} listint_t;
 /**
 **print_listint - produit une sortie selon un format.
 *@h:it the argument
