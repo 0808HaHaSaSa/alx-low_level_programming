@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdarg.h>
+#include "lists.h"
 #include <string.h>
 #include <stdlib.h>
 #include <limits.h>
@@ -9,12 +9,6 @@
 *description: produces output according to a format.
 *Return:  always 0
 */
-typedef struct list_s
-{
-    char *str;
-    unsigned int len;
-    struct list_s *next;
-} list_t;
 size_t print_list(const list_t *h)
 {
 unsigned int size = 0;
