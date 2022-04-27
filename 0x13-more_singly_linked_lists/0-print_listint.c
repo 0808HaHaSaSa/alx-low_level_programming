@@ -8,20 +8,14 @@
 *description: produces output according to a format.
 *Return:  always 0
 */
-size_t print_listint(const struct listint_t *h)
+size_t print_listint(const listint_t *h)
 {
 size_t size = 0;
-if (h == NULL)
+while (h)
 {
-printf("linked list is empty");
-}
-struct listint_s *ptr = NULL;
-ptr = h ;
-while (h != NULL)
-{
+printf("%d\n", h->n);
+h = h->next;
 size++;
-printf("%d\n", ptr->n);
-ptr = ptr->next;
 }
 return (size);
 }
