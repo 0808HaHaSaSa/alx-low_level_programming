@@ -2,11 +2,7 @@
 #define __LISTS__H__
 #include <stdio.h>
 #include <stdlib.h>
-size_t print_list(const sigset_t *h);
-size_t list_len(const sigset_t *h);
-sigset_t *add_node(sigset_t **head, const char *str);
-sigset_t *add_node_end(sigset_t **head, const char *str);
-void free_list(sigset_t *head);
+size_t list_len(const list_t *h);
 typedef struct list_s
 {
     char *str;

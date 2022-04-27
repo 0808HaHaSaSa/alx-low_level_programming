@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdarg.h>
+#include <lists.h>
 #include <string.h>
 #include <stdlib.h>
 /**
@@ -8,14 +8,14 @@
 *description: produces output according to a format.
 *Return:  always 0
 */
-size_t list_len(const sigset_t *h)
+size_t list_len(const list_t *h)
 {
 size_t size = 0;
-if (h != NULL)
-while (h != NULL)
+while (h)
 {
-size++;
+printf("%d\n", h->n);
 h = h->next;
+size++;
 }
 return (size);
 }
