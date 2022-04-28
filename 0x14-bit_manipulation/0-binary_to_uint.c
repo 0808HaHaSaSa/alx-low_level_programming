@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
 **binary_to_uint - the sum of all its parameters.
 *@b:it the argument
