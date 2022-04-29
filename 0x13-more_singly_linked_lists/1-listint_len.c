@@ -1,4 +1,7 @@
+#include <stdio.h>
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
 /**
 **listint_len - produit une sortie selon un format.
 *@h:it the argument
@@ -8,10 +11,10 @@
 size_t listint_len(const listint_t *h)
 {
 size_t size = 0;
-while (h != NULL)
+while (h)
 {
-size++;
 h = h->next;
+size++;
 }
 return (size);
 }
