@@ -8,9 +8,6 @@
 */
 void print_binary(unsigned long int n)
 {
-if (n > 1)
-{
-print_binary(n / 2);
-}
-printf("%d", n % 2);
+for (int i = sizeof(int) * 4; i >= 0; i--)
+printf("%d", (n & (1 << i)) >> i );
 }
