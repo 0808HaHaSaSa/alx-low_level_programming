@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-#include "main.h"
 /**
 **print_binary - the sum of all its parameters.
 *@n:it the argument
