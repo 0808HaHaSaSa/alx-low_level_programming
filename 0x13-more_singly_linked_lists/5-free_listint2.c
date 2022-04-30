@@ -8,7 +8,7 @@
 *description: produces output according to a format.
 *Return:  always 0
 */
-void free_listint(listint_t *head)
+void free_listint2(listint_t **head)
 {
     listint_t *h,*c;
 c=h;
@@ -18,5 +18,5 @@ while(c!=NULL)
     free(c);
     c=h;
 }
-(head)=NULL;
+(*head)=NULL;
 }
