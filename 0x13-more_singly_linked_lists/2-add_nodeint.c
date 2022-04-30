@@ -11,21 +11,20 @@
 */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-listint_t *element;
-element = malloc(sizeof(*element));
-if (element == NULL)
+*head = malloc(sizeof(*head));
+if (*head == NULL)
 {
-fprintf(stderr, "erreur\n");
-exit(EXIT_FAILURE);
+    fprintf(stderr, "erreur\n");
+    exit(EXIT_FAILURE);
 }
-element -> n = n;
-if (*head = NULL)
+(*head) -> n = n;
+if (head)
 {
-element -> next = NULL;
+(*head) -> next = NULL;
 }
 else
 {
-element -> next = *head;
+(*head) -> next = head;
 }
 return (*head);
 }
