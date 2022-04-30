@@ -18,5 +18,5 @@ while(c!=NULL)
     free(c);
     c=h;
 }
-(*head)=NULL;
+(head)=NULL;
 }
