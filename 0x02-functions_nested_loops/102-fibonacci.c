@@ -19,3 +19,8 @@ i = j;
 j = s;
 }
 }
+int main(void)
+{
+fibonacci ();
+return (0);
+}
