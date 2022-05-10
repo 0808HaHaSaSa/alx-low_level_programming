@@ -14,4 +14,5 @@ void times_table(void);
 void print_times_table(int n);
 void natural(void);
 void jack_bauer(void);
+void fibonacci(void);
 #endif
