@@ -19,6 +19,7 @@ s = s + i;
 }
 }
 printf("%d", s);
+printf("\n");
 }
 /**
  *main - Entry point
