@@ -1,39 +1,49 @@
 #include <stdio.h>
-/**
- *main - Entry point
- *
- * Return: Always 0 (Success)
- */
-/* betty style doc for function main goes there */
 
+/**
+ * main - loops through variables n, m, o, and p, printing 0-9
+ * Return: all possible combinations of two two-digit numbers
+ */
 int main(void)
 {
-int i, j, m, n;
-for (i = 48; i < 58; i++)
-{
-for (j = 48; j < 58; j++)
-{
-for (m = 48; m < 58; m++)
-{
-for (n = 48; n < 58; n++)
-{
-if ((m + n) > (j + i))
-{
-putchar(i);
-putchar(j);
-putchar(32);
-putchar(m);
-putchar(n);
-if (j != 57)
-{
-putchar(',');
-putchar(32);
-}
-}
-}
-}
-}
-}
-putchar('\n');
-return (0);
+	int n = 0;
+	int m = 0;
+	int o = 0;
+	int p = 0;
+
+	while (n <= 9)
+	{
+		while (m <= 9)
+		{
+			o = n;
+			p = m + 1;
+			while (o <= 9)
+			{
+				while (p <= 9)
+				{
+					putchar(n + '0');
+					putchar(m + '0');
+					putchar(' ');
+					putchar(o + '0');
+					putchar(p + '0');
+					if (n == 9 && m == 8 && o == 9 && p == 9)
+					{
+						putchar('\n');
+					}
+					else
+					{
+						putchar(',');
+						putchar(' ');
+					}
+					p++;
+				}
+				p = 0;
+				o++;
+			}
+			m++;
+		}
+		m = 0;
+		n++;
+	}
+	return (0);
 }
