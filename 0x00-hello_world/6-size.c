@@ -1,20 +1,23 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - prints the size of various types on the computer it is compiled
+ * and run on
+ * Return: statements returning values of variables
  */
 int main(void)
 {
-char c;
-char i;
-long li;
-long lli;
-float f;
-printf("Size of a char: %d byte(s)\n", sizeof(c));
-printf("Size of a int: %d byte(s)\n", sizeof(i));
-printf("Size of a long int: %ld byte(s)\n", sizeof(li));
-printf("Size of a long long int: %lld byte(s)\n", sizeof(lli));
-printf("Size of a float: %ld byte(s)\n", sizeof(f));
-return (0);
+	char c;
+	int i;
+	long l;
+	long long ll;
+	float f;
+
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(i));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(l));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(ll));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+
+	return (0);
 }
