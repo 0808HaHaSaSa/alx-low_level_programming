@@ -1,22 +1,20 @@
 #include <stdio.h>
-#include "lists.h"
-#include <string.h>
 #include <stdlib.h>
+#include "lists.h"
+
 /**
-**free_listint - produit une sortie selon un format.
-*@head:it the argument
-*description: produces output according to a format.
-*Return:  always 0
-*/
+ * free_listint - frees a listint_t list
+ * @head: pointer to list to be freed
+ * Return: void
+ */
 void free_listint(listint_t *head)
 {
-    listint_t tmp, c;
-c = head;
-while(c!= NULL)
-{
-    tmp = c->next;
-    free(c);
-    c=tmp;
-}
-head = NULL;
+	listint_t *current;
+
+	while (head != NULL)
+	{
+		current = head;
+		head = head->next;
+		free(current);
+	}
 }
