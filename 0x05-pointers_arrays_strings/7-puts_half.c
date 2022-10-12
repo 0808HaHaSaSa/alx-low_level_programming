@@ -14,7 +14,7 @@ if (n % 2 == 0)
 for (i = n / 2 ; i < n ; i++)
 putchar(str[i]);
 else
-for (i = (n) / 2 ; i < n ; i++)
+for (i = (n+1) / 2 ; i < n ; i++)
 putchar(str[i]);
 printf("\n");
 
