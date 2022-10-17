@@ -8,16 +8,18 @@
 */
 char *rot13(char *s)
 {
-	int i;
-
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		if ((s[i] >= 'a' && s[i] <= 'm') ||
-		    (s[i] >= 'A' && s[i] <= 'M'))
-			s[i] = s[i] + 13;
-		else if ((s[i] >= 'n' && s[i] <= 'z') ||
-			 (s[i] >= 'N' && s[i] <= 'Z'))
-			s[i] = s[i] - 13;
-	}
-	return (s);
+int i, j;
+char a[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char b[53] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+for (i = 0; s[i] != '\0'; i++)
+{
+for (j = 0; j < 53; j++)
+{
+if (s[i] == a[j])
+{
+s[i] = b[j];
+}
+}
+}
+return (s);
 }
