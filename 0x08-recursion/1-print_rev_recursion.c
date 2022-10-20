@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * print_rev_recursion - function that prints a string in reverse.
- * @s: array name
+ * _print_rev_recursion - prints a string in reverse
+ * @s: string to be printed
+ *description: encodes a string using rot13
  * Return: void
  */
 void _print_rev_recursion(char *s)
