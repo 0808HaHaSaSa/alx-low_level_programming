@@ -11,7 +11,6 @@
 /* betty style doc for function main goes there */
 int main(int argc, char *argv[])
 {
-argv[argc] = NULL;
 printf("%d\n", argc);
 return (0);
 }
