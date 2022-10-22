@@ -1,5 +1,6 @@
 #include <time.h>
 #include <stdio.h>
+#include <stlib.h>
 /* more headers goes there */
 /**
  * main - Entry point
@@ -18,7 +19,7 @@ return (1);
 }
 else
 {
-m = ((*argv[1]) * (*argv[2]));
+m = atoi((*argv[1]) * atoi(*argv[2]));
 printf("%d", m);
 printf("\n");
 return (0);
