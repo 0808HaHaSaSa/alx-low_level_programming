@@ -19,7 +19,7 @@ return (1);
 }
 else
 {
-m = atoi((*argv[1]) * atoi(*argv[2]));
+m = atoi((argv[1]) * atoi(argv[2]));
 printf("%d", m);
 printf("\n");
 return (0);
