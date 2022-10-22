@@ -8,8 +8,8 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-printf("%d",argc);
+printf("%s\n"arg[0]);
 return (0);
 }
