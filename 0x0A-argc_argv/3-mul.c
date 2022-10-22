@@ -1,4 +1,3 @@
-#include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
 /* more headers goes there */
@@ -19,9 +18,8 @@ return (1);
 }
 else
 {
-m = atoi((argv[1]) * atoi(argv[2]));
-printf("%d", m);
-printf("\n");
+m = atoi(argv[1]) * atoi(argv[2]);
+printf("%d\n", m);
 }
 return (0);
 }
