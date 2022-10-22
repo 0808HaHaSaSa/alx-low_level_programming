@@ -18,7 +18,7 @@ return (1);
 }
 else
 {
-m = (int(argv[1]) * int(argv[2]));
+m =int ((*argv[1]) * (*argv[2]));
 printf("%d", m);
 printf("\n");
 return (0);
