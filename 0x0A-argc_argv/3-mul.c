@@ -1,27 +1,27 @@
+#include <time.h>
 #include <stdio.h>
 #include <stdlib.h>
-
+/* more headers goes there */
 /**
- * main - multiplies two numbers
- * @argc: number of arguments
- * @argv: pointer to array of arguments
- * Return: 0
+ * main - Entry point
+ *@argc:argument
+ *@argv:argumeent
+ * Return: Always 0 (Success)
  */
+/* betty style doc for function main goes there */
 int main(int argc, char *argv[])
 {
-	int x = 0;
-
-	if (argc != 3)
-	{
-		printf("Error\n");
-		return (1);
-	}
-
-	else
-	{
-		x = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d\n", x);
-	}
-
-	return (0);
+int m;
+if (argc != 3)
+{
+printf("Error\n");
+return (1);
+}
+else
+{
+m = atoi((argv[1]) * atoi(argv[2]));
+printf("%d", m);
+printf("\n");
+}
+return (0);
 }
